@@ -7,6 +7,7 @@ from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import PyPDFLoader
 
+
 def process_text(text):
     # Split the text into chunks using Langchain's CharacterTextSplitter
     text_splitter = CharacterTextSplitter(
@@ -17,16 +18,26 @@ def process_text(text):
     )
     chunks = text_splitter.split_text(text)
 
-    # Convert the chunks of text into embeddings to add to FAISS Vector Index
+    # Convert the chunks of text into embeddings to form a knowledge base
     embeddings = OpenAIEmbeddings()
     knowledgeBase = FAISS.from_texts(chunks, embeddings)
 
     return knowledgeBase
 
+def process_pages(pages):
 
-model = ChatOpenAI(model_name="gpt-3.5-turbo")
+    embeddings = OpenAIEmbeddings()
+    knowledgeBase = FAISS.from_documents(pages, embeddings)
 
-loader = PyPDFLoader("/home/anish/Downloads/IPCC_AR6_SYR_SPM.pdf")
+    return knowledgeBase
+
+model = ChatOpenAI(model_name="gpt-3.5-turbo-16k")
+
+loader = PyPDFLoader("FR_Y-9C20230630_file_June.pdf")
+    #"FR_Y-9C20230630_file_June.pdf")
+#FR_Y-9C20230930_file Current
+#pages = loader.load_and_split()
+
 documents = loader.load()
 
 text = ""
@@ -34,10 +45,16 @@ for doc in documents:
     text += doc.page_content
 
 knowledgeBase = process_text(text)
+    #process_pages(pages)
+    #process_text(text)
 
 print("knowledge base created")
 
-query = "How much was the global temperature change in 2011 as compared to 1850"
+query = "How many schedules are there in the document ?"
+    #"How many times does BHCK occur in the document ?"
+    #"How many schedules are there in the document ?"
+    #"What is the total assets adn total trading assets of Holding Companies for which Memorandum items 9.a through 9.e are to be completed. Answer in full. Consider only 9a through 9e"
+    #"What is the income and fees from the printing and sale of checks?"
 
 docs = knowledgeBase.similarity_search(query)
 
@@ -49,4 +66,5 @@ with get_openai_callback() as cost:
     print(cost)
 
 print(response)
+
 
