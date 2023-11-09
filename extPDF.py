@@ -11,19 +11,18 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema.runnable import RunnableLambda
 import json
-from langchain.chains.question_answering import load_qa_chain
-from langchain.llms import OpenAI
-from langchain.callbacks import get_openai_callback
+
 
 
 class ScheduleInfo(BaseModel):
     """Information about Financial Schedule mentioned."""
     key: str
     value: Optional[str]
-class Overview(BaseModel):
-    """Overview of a section of text."""
-    summary: str = Field(description="Provide a concise summary of the content.")
-    keywords: str = Field(description="Provide keywords related to the content.")
+
+# class Overview(BaseModel):
+#     """Overview of a section of text."""
+#     summary: str = Field(description="Provide a concise summary of the content.")
+#     keywords: str = Field(description="Provide keywords related to the content.")
 
 class Schedule(BaseModel):
     """Information about Schedule in the report"""
@@ -49,64 +48,76 @@ schedule_tagging_function = [
     convert_pydantic_to_openai_function(Schedule)
 ]
 
-template = """A financial report will be passed to you. Extract from it the schedule hi info as key value pairs. 
+template = """A financial report will be passed to you. Extract from it the schedule info as key value pairs. 
 Do not consider the Item number as key, read the key description as key, and the value in the table as value.
+Use the numeric or alphanumeric value as value only, do not add the item number as value.
 Do not make up or guess ANY extra information."""
 
-#Do not consider the Item number as key, read the key description as key, and the value in the table as value.
-prompt = ChatPromptTemplate.from_messages([
-    ("system", template),
-    ("human", "{input}")
-])
 
-model = ChatOpenAI(model_name="gpt-3.5-turbo-16k",temperature=1.2,max_tokens=2000)
-#model_kwargs={'top_p':0.5}
 
-extraction_model = model.bind(
-    functions=schedule_tagging_function,
-    function_call={"name":"Schedule"}
-)
+def getStructInfo(file_path,no_pages):
+    """Get the structure of the financial report.
+    Parameters
+    ----------
+    file_path : str
+        Path to the financial report.
+    no_pages : int
+        Number of pages to extract.
+    Returns
+    -------
+    List[Schedule]
+        List of schedules extracted from the financial report.
+    """
+    loader = PyPDFLoader(file_path)
+    documents = loader.load()
+    print("Document has :" + str(len(documents)) + " pages")
 
-loader = PyPDFLoader("FR_Y-9C20230930_file Current.pdf")
+    # Do not consider the Item number as key, read the key description as key, and the value in the table as value.
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", template),
+        ("human", "{input}")
+    ])
 
-documents = loader.load()
+    model = ChatOpenAI(model_name="gpt-3.5-turbo-16k", temperature=1.2, max_tokens=2000)
+    # model_kwargs={'top_p':0.5}
 
-print("Document has :"+str(len(documents))+" pages")
+    extraction_model = model.bind(
+        functions=schedule_tagging_function,
+        function_call={"name": "Schedule"}
+    )
 
-def getStructInfo(documents):
     jsonCurr=[]
     text = ""
     ctr = 0
-    for doc in documents[:7]:
-        print("EXTRACTING INFO FROM ###############  PAGE ######################################### " + str(ctr))
-        text = doc.page_content
-        ctr+=1
-        extraction_chain = prompt | extraction_model | JsonKeyOutputFunctionsParser(key_name="schedules")
-        jsonDoc = extraction_chain.invoke({"input": text})
-        json.dumps(jsonCurr.append(jsonDoc))
-    return jsonCurr
+    for doc in documents[:no_pages]:
+       print("EXTRACTING INFO FROM ###############  PAGE ######################################### " + str(ctr))
+       text += doc.page_content
+       ctr+=1
+       extraction_chain = prompt | extraction_model | JsonOutputFunctionsParser()
+       jsonDoc = extraction_chain.invoke({"input": doc.page_content})
+       json.dumps(jsonCurr.append(jsonDoc))
+    return jsonCurr, text
 
-CURR_DOC = getStructInfo(documents)
+
+CURR_DOC, CURR_DOC_TXT = getStructInfo("FR_Y-9C20230930_file Current.pdf",7)
 
 CURR_DOC_STR=" ".join(map(str,CURR_DOC))
 
-# Writing to json
-with open("CURR.txt", "w") as outfile:
+with open("CURR_JSON.txt", "w") as outfile:
     outfile.write("".join(CURR_DOC_STR))
+
+with open("CURR_TEXT.txt", "w") as outfile:
+    outfile.write(CURR_DOC_TXT)
 
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 
-
-loader = PyPDFLoader("FR_Y-9C20230630_file_June.pdf")
-
-documents = loader.load()
-
-print("Document has :"+str(len(documents))+" pages")
-
-OLD_DOC = getStructInfo(documents)
+OLD_DOC, OLD_DOC_TXT = getStructInfo("FR_Y-9C20230630_file_June.pdf",7)
 OLD_DOC_STR=" ".join(map(str,OLD_DOC))
 
-with open("OLD.txt", "w") as outfile:
+with open("OLD_JSON.txt", "w") as outfile:
     outfile.write("".join(OLD_DOC_STR))
+
+with open("OLD_old.txt", "w") as outfile:
+    outfile.write(OLD_DOC_TXT)
 
 

@@ -1,0 +1,54 @@
+Model : gpt-3.5-turbo-16k
+CURRENT DOC:
+query = "How many MAIN schedules are there in the document , Name the main Schedules with description?"
+
+Answer :
+  There are 12 main schedules in the document. They are:
+Schedule HI, the Consolidated Income Statement;
+Schedule HC, Balance Sheet;
+Schedule HC-R, Risk-Weighted Assets;
+Schedule HC-G, Allowance for Credit Losses;
+Schedule HC-H, Interest Sensitivity;
+Schedule HC-I, Insurance-Related Underwriting Activities;
+Schedule HC-J, Off-Balance Sheet Items;
+Schedule HC-K, Trading Assets and Liabilities;
+Schedule HC-L, Marketable Equity Securities;
+Schedule HC-M, Memoranda;
+Schedule HC-N, Consolidated Statements of Income and Retained Earnings; and
+Schedule HC-O, Consolidated Statements of Changes in Stockholders Equity.
+
+"How many times the word BHCK occurs in the entire document, including all schedules ?"
+
+Answer :  BHCK occurs 23 times in the entire document.
+
+OLD DOC (JUNE):
+
+query = "How many MAIN schedules are there in the document , Name the main Schedules with description?"
+
+There are four main schedules in the document:
+1. Schedule HC-D: This schedule contains information about the trading assets of a holding company.
+2. Schedule HC-F: This schedule contains information about other assets such as equity investments and life insurance assets.
+3. Schedule HC-G: This schedule contains information about other liabilities such as net deferred tax liabilities and allowances for credit losses.
+4. Schedule HC-R: This schedule contains information about risk-weighted assets, allocations by risk-weighted categories, and application of other risk-weighting approaches.
+
+query = "How many MAIN schedules are there in the document , Name the main Schedules with description?"
+ BHCK occurs a total of 56 times.
+
+
+EXPT with Models :
+
+CURRENT DOC:
+ Model = gpt-4.0
+ There are 8 main schedules in the document: Schedule HI (Consolidated Income Statement), Schedule HC (Balance Sheet), Schedule HC-R (Allocation by Risk-Weight Category), Schedule HC-G (Allowances for Credit Losses), Schedule HC-H (Interest Sensitivity), Schedule HC-I (Insurance-Related Underwriting Activities), Schedule HJ (Statement of Operations) and Schedule HJ-R (Statement of Operations - Other).
+
+ Model = gpt-4.0, temperature = 0.8, max_tokens=2000
+ There are 8 main schedules in the document: Schedule HI, Consolidated Income Statement; Schedule HC, Balance Sheet; Schedule HC-R, Risk-Weighted Assets; Schedule HC-G, Allowance for Credit Losses; Schedule HC-H, Interest Sensitivity; Schedule HC-I, Insurance-Related Underwriting Activities; Schedule HI-B, Expenses; and Schedule HI-C, Capital Adequacy.
+
+
+ Model = gpt-4.0, temperature = 1.2, max_tokens=3000
+ There are five main schedules in the document:
+1. Schedule HI: Consolidated Income Statement
+2. Schedule HC: Balance Sheet
+3. Schedule HC-R: Risk-Weighted Assets
+4. Schedule HC-H: Interest Sensitivity
+5. Schedule HC-I: Insurance-Related Underwriting Activities (Including Reinsurance)
