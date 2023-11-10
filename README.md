@@ -9,3 +9,5 @@ pip install pyPDF2<br>
 pip install streamlit<br>
 
 To run the chatPDF.py : use cmd : streamlit run chatPDF.py
+
+Before running any code, use : export OPENAI_API_KEY=................ to set the env var for openai
