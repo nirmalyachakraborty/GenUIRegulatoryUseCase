@@ -54,7 +54,7 @@ def main():
         if query:
             docs = knowledgeBase.similarity_search(query)
 
-            llm = OpenAI()
+            llm = OpenAI(model_name="gpt-4")
             chain = load_qa_chain(llm, chain_type='stuff')
 
             with get_openai_callback() as cost:

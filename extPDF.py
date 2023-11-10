@@ -28,6 +28,7 @@ class Schedule(BaseModel):
     """Information about Schedule in the report"""
     schedules: List[ScheduleInfo]
 
+
 # overview_tagging_function = [
 #     convert_pydantic_to_openai_function(Overview)
 # ]
@@ -106,8 +107,8 @@ CURR_DOC_STR=" ".join(map(str,CURR_DOC))
 with open("CURR_JSON.txt", "w") as outfile:
     outfile.write("".join(CURR_DOC_STR))
 
-with open("CURR_TEXT.txt", "w") as outfile:
-    outfile.write(CURR_DOC_TXT)
+# with open("CURR_TEXT.txt", "w") as outfile:
+#     outfile.write(CURR_DOC_TXT)
 
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 
@@ -117,7 +118,7 @@ OLD_DOC_STR=" ".join(map(str,OLD_DOC))
 with open("OLD_JSON.txt", "w") as outfile:
     outfile.write("".join(OLD_DOC_STR))
 
-with open("OLD_old.txt", "w") as outfile:
-    outfile.write(OLD_DOC_TXT)
+# with open("OLD_old.txt", "w") as outfile:
+#     outfile.write(OLD_DOC_TXT)
 
 

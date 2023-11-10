@@ -52,3 +52,32 @@ CURRENT DOC:
 3. Schedule HC-R: Risk-Weighted Assets
 4. Schedule HC-H: Interest Sensitivity
 5. Schedule HC-I: Insurance-Related Underwriting Activities (Including Reinsurance)
+
+Query:
+"What is the total assets adn total trading assets of Holding Companies for which Memorandum items 9.a through 9.e are to be completed. Answer in full. Consider only 9a through 9e"
+Answer CURR DOC:
+ The total assets and trading assets for Holding Companies for which Memorandum items 9.a through 9.e are to be completed is $10 billion or more in total consolidated assets.
+
+Answer OLD DOC:
+The total assets and total trading assets of Holding Companies for which Memorandum items 9.a through 9.e are to be completed are $10 billion or more in total consolidated assets and $5 billion or more in total assets, respectively.
+
+Query:
+"What is total interest income and Total Interest Expense, with full details ?"
+Answer CURR DOC:
+ Total interest income is reported in item 1.h as $4107 and total interest expense is reported in item 2.f as $4073. Detailed information about each item is provided in the context.
+
+Answer OLD DOC:
+Total interest income is the sum of items 1.a through 1.g, which is 4107 1.h. Total interest expense is the sum of items 2.a through 2.e, which is 4073 2.f.
+
+Query using the chatPDF interface:
+What is the Approval Expiry Date :
+CURR: The approval expiry date is September 30 2026
+OLD : The approval expiry date is September 30, 2025.
+
+How many times BHCK occurs in the document ?
+CURR: The term "BHCK" occurs 30 times in the document.
+OLD:The term "BHCK" occurs 14 times in the document.
+
+What is the Total Interest Income in the Report ?
+CURR : The total interest income in the report is 4107.
+OLD : Incorrect answer

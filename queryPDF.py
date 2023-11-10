@@ -31,7 +31,7 @@ def process_pages(pages):
 
     return knowledgeBase
 
-model = ChatOpenAI(model_name="gpt-4.0", temperature=1.2, max_tokens=3000)
+model = ChatOpenAI(model_name="gpt-4-32k", temperature=1.2, max_tokens=4000)
 
 loader = PyPDFLoader("FR_Y-9C20230930_file Current.pdf")
     #"FR_Y-9C20230630_file_June.pdf")
@@ -51,7 +51,10 @@ knowledgeBase = process_text(text)
 
 print("knowledge base created")
 
-query ="How many MAIN schedules are there in the document , Name the main Schedules with description?"
+query = "How many MAIN schedules are there in the document , Name the main Schedules with description?"
+    #"What is the rule for Derivative Contracts in Schdule HC-N and what is the fair value (unit in Billion dollars)"
+    #"What is total interest income and Total Interest Expense, with full details. Consider the unit as Billion Dollars?"
+    #"What is the total assets adn total trading assets of Holding Companies for which Memorandum items 9.a through 9.e are to be completed. Answer in full. Consider only 9a through 9e"
     #"How many MAIN schedules are there in the document , Name the main Schedules with description?"
     #"How many times the word BHCK occurs in the entire document, including all schedules ?"
     #"How many times does BHCK occur in the document ?"
