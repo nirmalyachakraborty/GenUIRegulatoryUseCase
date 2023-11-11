@@ -1,0 +1,125 @@
+EXTRACT FROM CURRENT FILE
+READING EXTRACT FROM PAGE#:3
+SCHEDULE NAME:Schedule HI—Consolidated Income Statement
+Interest income - Interest and fee income on loans: In domestic of fices: Loans secured by 1– 4 family residential properties
+4435
+Interest income - Interest and fee income on loans: In domestic of fices: All other loans secured by real estate
+4436
+Interest income - Interest and fee income on loans: In domestic of fices: All other loans
+F821
+Interest income - Interest and fee income on loans: In foreign offices, Edge and Agreement subsidiaries, and IBFs
+4059
+Interest income - Income from lease financing receivables
+4065
+Interest income - Interest income on balances due from depository institutions
+4115
+Interest income - Interest and dividend income on securities: U.S. Treasury securities and U.S. government agency obligations (excluding mortgage-backed securities)
+B488
+Interest income - Interest and dividend income on securities: Mortgage-backed securities
+B489
+Interest income - Interest and dividend income on securities: All other securities
+4060
+Interest income - Interest income from trading assets
+4069
+Interest income - Interest income on federal funds sold and securities purchased under agreements to resell
+4020
+Interest income - Other interest income
+4518
+Interest income - Total interest income (sum of items 1.a through 1.g)
+4107
+Interest expense - Interest on deposits: In domestic offices: Time deposits of $250,000 or less
+HK03
+Interest expense - Interest on deposits: In domestic offices: Time deposits of more than $250,000
+HK04
+Interest expense - Interest on deposits: In domestic offices: Other deposits
+6761
+Interest expense - Interest on deposits: In foreign offices, Edge and Agreement subsidiaries, and IBFs
+4172
+Interest expense - Expense on federal funds purchased and securities sold under agreements to repurchase
+4180
+Interest expense - Interest on trading liabilities and other borrowed money (excluding subordinated notes and debentures)
+4185
+Interest expense - Interest on subordinated notes and debentures and on mandatory convertible securities
+4397
+Interest expense - Other interest expense
+4398
+Interest expense - Total interest expense (sum of items 2.a through 2.e)
+4073
+Net interest income (item 1.h minus item 2.f)
+4074
+Provision for loan and lease losses
+JJ33
+Noninterest income: Income from fiduciary activities
+4070
+Noninterest income: Service charges on deposit accounts in domestic offices
+4483
+Noninterest income: Trading revenue
+A220
+###############################################
+EXTRACT FROM OLD FILE
+READING EXTRACT FROM PAGE#:3
+SCHEDULE NAME:Schedule HI—Consolidated Income Statement
+Interest income
+N/A
+Interest and fee income on loans
+N/A
+Loans secured by 1– 4 family residential properties
+4435
+All other loans secured by real estate
+4436
+All other loans
+F821
+In foreign of fices, Edge and Agreement subsidiaries, and IBFs
+4059
+Income from lease financing receivables
+4065
+Interest income on balances due from depository institutions1
+4115
+Interest and dividend income on securities
+N/A
+U.S. Treasury securities and U.S. government agency obligations (excluding mortgage-backed securities)
+B488
+Mortgage-backed securities
+B489
+All other securities
+4060
+Interest income from trading assets2
+4069
+Interest income on federal funds sold and securities purchased under agreements to resell
+4020
+Other interest income
+4518
+Total interest income (sum of items 1.a through 1.g)
+4107
+Interest expense
+N/A
+Interest on deposits
+N/A
+Time deposits of $250,000 or less
+HK03
+Time deposits of more than $250,000
+HK04
+Other deposits
+6761
+Expense on federal funds purchased and securities sold under agreements to repurchase
+4180
+Interest on trading liabilities and other borrowed money2 (excluding subordinated notes and debentures)
+4185
+Interest on subordinated notes and debentures and on mandatory convertible securities2
+4397
+Other interest expense
+4398
+Total interest expense (sum of items 2.a through 2.e)
+4073
+Net interest income (item 1.h minus item 2.f)
+4074
+Provision for loan and lease losses3
+JJ33
+Noninterest income
+N/A
+Income from fiduciary activities
+4070
+Service charges on deposit accounts in domestic of fices
+4483
+Trading revenue2, 4
+A220
