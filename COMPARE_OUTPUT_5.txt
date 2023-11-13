@@ -1,0 +1,144 @@
+IN CURRENT REPORT:
+Net interest income on a fully taxable equivalent basis
+4519
+IN OLD REPORT:
+Net interest income (item 3 above) on a fully taxable equivalent basis
+4519
+IN CURRENT REPORT:
+Net income before applicable income taxes, and discontinued operations on a fully taxable equivalent basis
+4592
+IN OLD REPORT:
+Net income before applicable income taxes, and discontinued operations (item 8.c above) on a fully taxable equivalent basis
+4592
+IN CURRENT REPORT:
+Income on tax-exempt loans and leases to states and political subdivisions in the U.S.
+4313
+IN OLD REPORT:
+Income on tax-exempt loans and leases to states and political subdivisions in the U.S. (included in Schedule HI, items 1.a and 1.b, above)
+4313
+IN CURRENT REPORT:
+Income on tax-exempt securities issued by states and political subdivisions in the U.S.
+N/A
+IN OLD REPORT:
+Income on tax-exempt securities issued by states and political subdivisions in the U.S. (included in Schedule HI, item 1.d.(3), above)
+N/A
+IN CURRENT REPORT:
+Income and fees from the printing and sale of checks
+C013
+IN OLD REPORT:
+Income and fees from the printing and sale of checks
+C013
+IN CURRENT REPORT:
+Earnings on/increase in value of cash surrender value of life insurance
+C014
+IN OLD REPORT:
+Earnings on/increase in value of cash surrender value of life insurance
+C014
+IN CURRENT REPORT:
+Income and fees from automated teller machines
+C016
+IN OLD REPORT:
+Income and fees from automated teller machines (A TMs)
+C016
+IN CURRENT REPORT:
+Number of full-time equivalent employees at end of current period
+4150
+IN OLD REPORT:
+Number of full-time equivalent employees at end of current period (round to nearest whole number)
+4150
+IN CURRENT REPORT:
+Income and fees from wire transfers
+T047
+IN OLD REPORT:
+Income and fees from wire transfers
+T047
+IN CURRENT REPORT:
+Bank card and credit card interchange fees
+F555
+IN OLD REPORT:
+Bank card and credit card interchange fees
+F555
+IN CURRENT REPORT:
+Safe deposit box rent
+C015
+IN OLD REPORT:
+Safe deposit box rent
+C015
+IN CURRENT REPORT:
+Rent and other income from other real estate owned
+4042
+IN OLD REPORT:
+Rent and other income from other real estate owned
+4042
+IN CURRENT REPORT:
+Data processing expenses
+C017
+IN OLD REPORT:
+Data processing expenses
+C017
+IN CURRENT REPORT:
+Advertising and marketing expenses
+0497
+IN OLD REPORT:
+Advertising and marketing expenses
+0497
+IN CURRENT REPORT:
+Directors' fees
+4136
+IN OLD REPORT:
+Directors' fees
+4136
+IN CURRENT REPORT:
+Printing, stationery, and supplies
+C018
+IN OLD REPORT:
+Printing, stationery , and supplies
+C018
+IN CURRENT REPORT:
+Postage
+8403
+IN OLD REPORT:
+Postage
+8403
+IN CURRENT REPORT:
+Legal fees and expenses
+4141
+IN OLD REPORT:
+Legal fees and expenses
+4141
+IN CURRENT REPORT:
+FDIC deposit insurance assessments2
+4146
+IN OLD REPORT:
+FDIC deposit insurance assessments2
+4146
+IN CURRENT REPORT:
+Accounting and auditing expenses
+F556
+IN OLD REPORT:
+Accounting and auditing expenses
+F556
+IN CURRENT REPORT:
+Consulting and advisory expenses
+F557
+IN OLD REPORT:
+Consulting and advisory expenses
+F557
+IN CURRENT REPORT:
+Automated teller machine and interchange expenses
+F558
+IN OLD REPORT:
+Automated teller machine (A TM) and interchange expenses
+F558
+IN CURRENT REPORT:
+Telecommunications expenses
+F559
+IN OLD REPORT:
+Telecommunications expenses
+F559
+IN CURRENT REPORT:
+Other real estate owned expenses
+Y923
+IN OLD REPORT:
+Other real estate owned expenses
+Y923

@@ -1,0 +1,66 @@
+IN CURRENT REPORT:
+Income from the sale and servicing of mutual funds and annuities (in domestic of fices)
+8431
+IN OLD REPORT:
+Income from the sale and servicing of mutual funds and annuities (in domestic of fices)
+8431
+IN CURRENT REPORT:
+Premiums on insurance related to the extension of credit
+C242
+IN OLD REPORT:
+Premiums on insurance related to the extension of credit
+C242
+IN CURRENT REPORT:
+All other insurance premiums
+C243
+IN OLD REPORT:
+All other insurance premiums
+C243
+IN CURRENT REPORT:
+Benefits, losses, and expenses from insurance-related activities
+B983
+IN OLD REPORT:
+Benefits, losses, and expenses from insurance-related activities
+B983
+IN CURRENT REPORT:
+Does the reporting holding company have a Subchapter S election in ef fect for federal income tax purposes for the current tax year?
+BHCKA530
+IN OLD REPORT:
+Does the reporting holding company have a Subchapter S election in ef fect for federal income tax purposes for the current tax year?
+BHCK
+IN CURRENT REPORT:
+Net gains (losses) recognized in earnings on assets and liabilities that are reported at fair value under a fair value option: Net gains (losses) on assets
+F551
+IN OLD REPORT:
+Net gains (losses) recognized in earnings on assets and liabilities that are reported at fair value under a fair value option: Net gains (losses) on assets
+F551
+IN CURRENT REPORT:
+Estimated net gains (losses) on loans attributable to changes in instrument-specific credit risk
+F552
+IN OLD REPORT:
+Estimated net gains (losses) on loans attributable to changes in instrument-specific credit risk
+F552
+IN CURRENT REPORT:
+Net gains (losses) on liabilities
+F553
+IN OLD REPORT:
+Net gains (losses) on liabilities
+F553
+IN CURRENT REPORT:
+Estimated net gains (losses) on liabilities attributable to changes in instrument-specific credit risk
+F554
+IN OLD REPORT:
+Estimated net gains (losses) on liabilities attributable to changes in instrument-specific credit risk
+F554
+IN CURRENT REPORT:
+Stock-based employee compensation expense (net of tax ef fects) calculated for all awards under the fair value method
+C409
+IN OLD REPORT:
+Stock-based employee compensation expense (net of tax ef fects) calculated for all awards under the fair value method
+C409
+IN CURRENT REPORT:
+Other-than-temporary impairment losses on held-to-maturity and available-for-sale debt securities recognized in earnings (included in Schedule HI, items 6.a and 6.b)
+J321
+IN OLD REPORT:
+Other-than-temporary impairment losses on held-to-maturity and available-for-sale debt securities recognized in earnings (included in Schedule HI, items 6.a and 6.b)
+J321

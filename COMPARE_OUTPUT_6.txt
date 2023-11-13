@@ -1,0 +1,102 @@
+IN CURRENT REPORT:
+m. Insurance expenses (not included in employee expenses, premises and fixed assets expenses, and other real estate owned expenses)
+Y924
+IN OLD REPORT:
+Insurance expenses (not included in employee expenses, premises and fixed assets expenses, and other real estate owned expenses)
+Y924
+IN CURRENT REPORT:
+8. Discontinued operations and applicable income tax ef fect (from Schedule HI, item 1 1)
+N/A
+IN OLD REPORT:
+Discontinued operations and applicable income tax effect (from Schedule HI, item 1 1) (itemize and describe each discontinued operation): a. (1)
+FT29
+IN CURRENT REPORT:
+(2) Applicable income tax ef fect
+FT30
+IN OLD REPORT:
+Applicable income tax effect
+BHCK
+IN CURRENT REPORT:
+b. (1)TEXT
+FT31
+IN OLD REPORT:
+b. (1)
+FT31
+IN CURRENT REPORT:
+b. (2) Applicable income tax ef fect
+FT32
+IN OLD REPORT:
+Applicable income tax effect
+BHCK
+IN CURRENT REPORT:
+9. Trading revenue (from cash instruments and derivative instruments)
+N/A
+IN OLD REPORT:
+Trading revenue (from cash instruments and derivative instruments)
+N/A
+IN CURRENT REPORT:
+a. Interest rate exposures
+8757
+IN OLD REPORT:
+Interest rate exposures
+8757
+IN CURRENT REPORT:
+b. Foreign exchange exposures
+8758
+IN OLD REPORT:
+Foreign exchange exposures
+8758
+IN CURRENT REPORT:
+c. Equity security and index exposures
+8759
+IN OLD REPORT:
+Equity security and index exposures
+8759
+IN CURRENT REPORT:
+d. Commodity and other exposures
+8760
+IN OLD REPORT:
+Commodity and other exposures
+8760
+IN CURRENT REPORT:
+e. Credit exposures
+F186
+IN OLD REPORT:
+Credit exposures
+F186
+IN CURRENT REPORT:
+f. Impact on trading revenue of changes in the creditworthiness of the holding company's derivatives counterparties on the holding company's derivative assets
+K094
+IN OLD REPORT:
+Impact on trading revenue of changes in the creditworthiness of the holding company's derivatives counterparties on the holding company's derivative assets
+K094
+IN CURRENT REPORT:
+g. Impact on trading revenue of changes in the creditworthiness of the holding company on the holding company's derivative liabilities
+K090
+IN OLD REPORT:
+Impact on trading revenue of changes in the creditworthiness of the holding company on the holding company's derivative liabilities
+K090
+IN CURRENT REPORT:
+10. Net gains (losses) recognized in earnings on credit derivatives that economically hedge credit exposures held outside the trading account
+N/A
+IN OLD REPORT:
+Net gains (losses) recognized in earnings on credit derivatives that economically hedge credit exposures held outside the trading account: a. Net gains (losses) on credit derivatives held for trading
+C889
+IN CURRENT REPORT:
+a. Net gains (losses) on credit derivatives held for trading
+C889
+IN OLD REPORT:
+Net gains (losses) on credit derivatives held for purposes other than trading
+C890
+IN CURRENT REPORT:
+b. Net gains (losses) on credit derivatives held for purposes other than trading
+C890
+IN OLD REPORT:
+Net gains (losses) on credit derivatives held for purposes other than trading
+C890
+IN CURRENT REPORT:
+11. Credit losses on derivatives
+A2518567
+IN OLD REPORT:
+Credit losses on derivatives
+A2518567

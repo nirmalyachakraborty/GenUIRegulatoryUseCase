@@ -1,0 +1,114 @@
+IN CURRENT REPORT:
+Fees and commissions from securities brokerage
+C886
+IN OLD REPORT:
+Fees and commissions from securities brokerage
+C886
+IN CURRENT REPORT:
+Investment banking, advisory , and underwriting fees and commissions
+C888
+IN OLD REPORT:
+Investment banking, advisory , and underwriting fees and commissions
+C888
+IN CURRENT REPORT:
+Fees and commissions from annuity sales
+C887
+IN OLD REPORT:
+Fees and commissions from annuity sales
+C887
+IN CURRENT REPORT:
+Underwriting income from insurance and reinsurance activities
+C386
+IN OLD REPORT:
+Underwriting income from insurance and reinsurance activities
+C386
+IN CURRENT REPORT:
+Income from other insurance activities
+C387
+IN OLD REPORT:
+Income from other insurance activities
+C387
+IN CURRENT REPORT:
+Venture capital revenue
+B491
+IN OLD REPORT:
+Venture capital revenue
+B491
+IN CURRENT REPORT:
+Net servicing fees
+B492
+IN OLD REPORT:
+Net servicing fees
+B492
+IN CURRENT REPORT:
+Net securitization income
+B493
+IN OLD REPORT:
+Net securitization income
+B493
+IN CURRENT REPORT:
+Fees and commissions from securities brokerage, investment banking, advisory , and underwriting fees and commissions
+KX46
+IN OLD REPORT:
+Fees and commissions from securities brokerage, investment banking, advisory , and underwriting fees and commissions
+KX46
+IN CURRENT REPORT:
+Income from insurance activities
+KX47
+IN OLD REPORT:
+Income from insurance activities
+KX47
+IN CURRENT REPORT:
+Net gains (losses) on sales of loans and lease
+8560
+IN OLD REPORT:
+Net gains (losses) on sales of loans and lease
+8560
+IN CURRENT REPORT:
+Net gains (losses) on sales of other real estate owned
+N/A
+IN OLD REPORT:
+Net gains (losses) on sales of loans and lease
+8560
+IN CURRENT REPORT:
+Net gains (losses) on sales of other assets
+N/A
+IN OLD REPORT:
+Net gains (losses) on sales of loans and lease
+8560
+IN CURRENT REPORT:
+Applicable income taxes (on item 8.c)
+4302
+IN OLD REPORT:
+Applicable income taxes (on item 8.c)
+N/A
+IN CURRENT REPORT:
+Income (loss) before discontinued operations (item 8.c minus item 9)
+N/A
+IN OLD REPORT:
+Income (loss) before discontinued operations (item 8.c minus item 9)
+N/A
+IN CURRENT REPORT:
+Discontinued operations, net of applicable income taxes
+FT28
+IN OLD REPORT:
+Discontinued operations, net of applicable income taxes
+N/A
+IN CURRENT REPORT:
+Net income (loss) attributable to holding company and noncontrolling (minority) interests (sum of items 10 and 1 1)
+G104
+IN OLD REPORT:
+Net income (loss) attributable to holding company and noncontrolling (minority) interests (sum of items 10 and 1 1)
+N/A
+IN CURRENT REPORT:
+LESS: Net income (loss) attributable to noncontrolling (minority) interests (if net income, report as a positive value; if net loss, report as a negative value)
+G103
+IN OLD REPORT:
+LESS: Net income (loss) attributable to noncontrolling (minority) interests (if net income, report as a positive value; if net loss, report as a negative value)
+N/A
+IN CURRENT REPORT:
+Net income (loss) attributable to holding company (item 12 minus item 13)
+4340
+IN OLD REPORT:
+Net income (loss) attributable to holding company (item 12 minus item 13)
+N/A
