@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2023-11-06T04:25:22.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7QU-WHFncqGsg6MhPd0Y" version="22.0.8" type="device">
+  <diagram name="Page-1" id="grnLIYBwrszPSr1sHJ01">
+    <mxGraphModel dx="794" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-7" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-1" target="eVOL83hFTN3cORhQeYeJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-1" value="Finance statement Report Current / Old" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-2" target="eVOL83hFTN3cORhQeYeJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-2" value="Add to Vector DB (in-memory)&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-3" target="eVOL83hFTN3cORhQeYeJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-3" value="query the PDF using domain knowledge" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-4" target="eVOL83hFTN3cORhQeYeJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-4" value="Retrieve answer from openai using results of Vector Search" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-5" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-6" target="eVOL83hFTN3cORhQeYeJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="170" />
+              <mxPoint x="270" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-6" value="Answers to queries" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-11" value="Send current doc answer and old doc answers to openai to get difference" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-12" value="&lt;b&gt;Option 1&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-13" value="&lt;b&gt;Option 2&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-14" target="eVOL83hFTN3cORhQeYeJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-14" value="Finance statement Report Current / Old" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-18" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVOL83hFTN3cORhQeYeJ-15" target="eVOL83hFTN3cORhQeYeJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-15" value="Extract structured info, summary from PDF using OpenAI" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-16" value="Pass the info extracted from current and old to openai and get difference" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eVOL83hFTN3cORhQeYeJ-20" value="To be tried : Prompt Engg, hyper-parameter settings, data model appropriate to Report, appropriate Vector DB" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="290" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

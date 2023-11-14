@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2023-11-13T07:07:18.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="erm9C-M-ihUkqHZzI6T5" version="21.8.2" type="device">
+  <diagram name="Page-1" id="7ZCabYRjPXwKtwF-fzaU">
+    <mxGraphModel dx="786" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-1" target="OFgqKGGkOjVv8dCtBhfY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-1" value="Load the PDF using langchain document loader (PyPDFLoader)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-2" target="OFgqKGGkOjVv8dCtBhfY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-2" value="Iterate through the pages / documents extracted" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-4" target="OFgqKGGkOjVv8dCtBhfY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-4" value="For each page, make a Function call with pydantic Data Model to extract the structured info" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-6" target="OFgqKGGkOjVv8dCtBhfY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-6" value="Page no&lt;br&gt;Schedule Name&lt;br&gt;List (ScheduleInfo (key value pairs)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-11" value="Write as JSON file for each page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-13" target="OFgqKGGkOjVv8dCtBhfY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-13" value="Read the JSON file for a page from CURR and OLD Reports" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-14" value="Iterate through the keys" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-15" value="Match the keys from CURR file and OLD file using matching algorithm (Levensthein ratio)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-16" value="For keys which are matching with match ratio &amp;gt; threshold (0.7), compare the values from CURR and OLD file" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-14" target="OFgqKGGkOjVv8dCtBhfY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OFgqKGGkOjVv8dCtBhfY-15" target="OFgqKGGkOjVv8dCtBhfY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-21" value="Data Model" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OFgqKGGkOjVv8dCtBhfY-24" value="Repeat process for all extracted pages from CURR and OLD files" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
