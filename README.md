@@ -12,11 +12,11 @@ Before running any code, use : export OPENAI_API_KEY=................ to set the
 
 1.To extract contents of PDF file, edit extPDF.py and update the PDF file name in the line <br>
 getStructInfo("FR_Y-9C20230930_file Current.pdf",1,"CURR_JSON") -- here second parameter is number of pages to extract (starting from first), third parameter is output JSON <br>
-Run : python extPDF.py
+Run : python extPDF.py <br>
 2. To query PDF, open queryPDF.py, and update the PDF file in line<br>
 loader = PyPDFLoader("FR_Y-9C20230930_file Current.pdf") <br>
 Update the query in the line : query = "............." <br>
-Run : python queryPDF.py
+Run : python queryPDF.py <br>
 3. To query PDF in interactive mode: <br>
 use cmd : streamlit run chatPDF.py <br>
 Upload PDF and type in the Query.
